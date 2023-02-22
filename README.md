@@ -4,7 +4,7 @@
 
 This is Module 10 my bootcamp, in this project using object oriented programming I have developed a Team Profile Generator which is named, A very interesting Team Generatorr. The use of this as a team generator is to create a webpage that has information about a team manager and members of that team with their information. 
 
-link to pages - https://theipm.github.io/WeatherCat-Dashboard/
+link to video demo-  https://drive.google.com/file/d/1y0i6iOIOWmmLrCKQCHa2t69yR-Htyg_Y/view?usp=sharing
 
 
 ## Table of Contents 
