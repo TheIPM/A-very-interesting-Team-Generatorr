@@ -15,18 +15,17 @@ function employeeCard(passedObject) {
     return `
     <div class="card">
                 <div class="card-head">
-                    <div class="card-name"> ${name} </div>
-                    <div class="card-title"> ${passedObject.constructor.name} </div>
+                    <div class="card-name">${name}</div>
+                    <div class="card-title">${passedObject.constructor.name}</div>
                 </div>
                 <div class="card-body">
                     <div class="id">ID: ${id}</div>
-                    <div class="email">Email: <a href="Email:${email}">${email}</a></div>
+                    <div class="email">Email: <a href="mailto:${email}">${email}</a></div>
                     <div class="param">${param}</div>
                 </div>
             </div>
     `
 }
-
 function howMany(passedObjectArray) {
 
     let ret = '' 
@@ -52,9 +51,6 @@ module.exports = function (passedObjectArray) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Team Profile Generator</title>
         <link rel="stylesheet" href="./style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     </head>
     
     <body>
